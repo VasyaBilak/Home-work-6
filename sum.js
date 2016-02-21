@@ -8,7 +8,7 @@ function square_equation() {
 
   var d = b * b - 4 * a * c;
   if ( d < 0 ) {
-    string = "пара комплексно-сопряженных корней<br>x<sub>1</sub> = (";
+    string = "пара комплексно-сполучених коренів<br>x<sub>1</sub> = (";
     string += - b / ( 2 * a );
     string += ", ";
     string += Math.sqrt( -d ) / ( 2 * a );
@@ -19,11 +19,11 @@ function square_equation() {
     string += ").";
   } else {
       if ( d == 0 ) {
-        string = "два одинаковых вещественных корня:<br>x<sub>1</sub> = x<sub>2</sub> = ";
+        string = "два одинакові речові корені:<br>x<sub>1</sub> = x<sub>2</sub> = ";
         string += -b / ( 2 * a );
         string += ".";
       } else {
-        string = "два различных вещественных корня:<br>x<sub>1</sub> = ";
+        string = "два різні речові корені:<br>x<sub>1</sub> = ";
         string += -b / ( 2 * a ) - Math.sqrt( d ) / ( 2 * a );
         string += ", x<sub>2</sub> = ";
         string += -b / ( 2 * a ) + Math.sqrt( d ) / ( 2 * a );
